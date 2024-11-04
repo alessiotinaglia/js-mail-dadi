@@ -20,7 +20,7 @@ const emailAutorizzate = [
     "pippo@esepio.com",
     "pluto@esepio.com",
     "paperino@esepio.com",
-]
+];
 
 // Chiediamo all'utente di inserire la sua mail 
 
