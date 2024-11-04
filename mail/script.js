@@ -23,6 +23,7 @@ const emailAutorizzate = [
 ];
 
 // Chiediamo all'utente di inserire la sua mail 
+const emailUtente = prompt("Inserisci la tua mail");
 
 // verifichiamo se la mail dell'utente e nella lista di quelle che può accedere 
 
