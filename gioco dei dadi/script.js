@@ -20,3 +20,11 @@ const numeroComputer = Math.floor(Math.random() * 6) + 1;
 console.log("Il numero del computer : " + numeroComputer);
 
 // Genera vincitore 
+
+if (numeroGiocatore > numeroComputer) {
+    console.log("Hai vinto!");
+} else if (numeroGiocatore < numeroComputer) {
+    console.log("Hai perso!");
+} else {
+    console.log("È un pareggio!");
+}
