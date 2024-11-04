@@ -13,21 +13,30 @@
 // Non è necessario provvedere alla validazione delle email
 
 
-// Esercizio
+// Esercizio :
 
-// Creare delle mail tipo, che poi l'utente dovra inserire
+// Creare delle mail autorizzate
 const emailAutorizzate = [
-    "pippo@esepio.com",
-    "pluto@esepio.com",
-    "paperino@esepio.com",
+    "pippo@esempio.com",
+    "pluto@esempio.com",
+    "paperino@esempio.com",
+    "topolino@esempio.com"
 ];
 
 // Chiediamo all'utente di inserire la sua mail 
 const emailUtente = prompt("Inserisci la tua mail");
+console.log(emailUtente);
 
 // verifichiamo se la mail dell'utente e nella lista di quelle che può accedere 
+if (emailAutorizzate.includes(emailUtente)){
+    // stampiamo due messaggi, se e valida o se non e valida 
+    console.log("La mail inserita è valida, Benvenuto!");
+} else {
+    console.log("La mail inserita non è valida");
+}
 
-// stampiamo due messaggi, se e valida o se non e valida 
+
+
 
 
 
