@@ -12,10 +12,11 @@
 // Esercizio :
 
 // Genera un numero random per il giocatore 
-const punteggioGiocatore = Math.floor(Math.random() * 6) + 1;
-console.log("Il tuo numero : " + punteggioGiocatore);
+const numeroGiocatore = Math.floor(Math.random() * 6) + 1;
+console.log("Il tuo numero : " + numeroGiocatore);
 
 // Genera un numero random per il computer
-
+const numeroComputer = Math.floor(Math.random() * 6) + 1;
+console.log("Il numero del computer : " + numeroComputer);
 
 // Genera vincitore 
